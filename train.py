@@ -135,7 +135,7 @@ def main(args):
 
     print_args(args)
 
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     train_path = get_dset_path(args.dataset_name, "train")
     val_path = get_dset_path(args.dataset_name, "test")
 
